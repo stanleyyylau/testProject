@@ -1,0 +1,102 @@
+body {
+    color: #70767a;
+}
+
+html {
+    font-size: 14px;
+}
+
+.header {
+    background-color: #f6f6f6;
+    padding: 5px 0;
+}
+
+.footer {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+}
+
+.header li {
+    display: inline-block;
+}
+
+ul {
+    display: inline;
+}
+
+.header li {
+    display: inline-block;
+    border-right: 1px solid #ddd;
+    padding: 0 12px;
+}
+
+.header ul li:last-child {
+    border-right: 0;
+}
+
+.top-bar-right {
+    text-align: right;
+}
+
+.top-bar-right li:last-child {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.header li a {
+    color: #6d7479;
+}
+
+.header li a:hover {
+    color: #d9534f;
+    text-decoration: none;
+}
+
+.footer ul {
+    display: inline-block;
+    padding-left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.wechat-code {
+    background-image: url("http://www.china7th.com/resources/shop/default/images/qr_code.gif");
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+p.wechat-des {
+    display: block;
+    width: 100px;
+    text-align: center;
+    color: #414345;
+}
+
+.footer li {
+    list-style: none;
+    margin-bottom: 7px;
+}
+
+li.footer-nav-icon {
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+
+.wechat-container {
+    padding-left: 50px;
+    border-left: 1px solid #ccc;
+    height: 190px;
+    padding-top: 30px;
+}
+
+.footer li a {
+    color: #606365;
+    text-decoration: none;
+}
+
+.bottom-nav li {
+    display: inline-block;
+    padding: 0 10px;
+    border-right: 1px solid;
+}
